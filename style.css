@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+.principal0{
+    display:grid ;
+    height: 500px;
+    width: 500px; 
+    background-color: black;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+
+}
+
+.filho1{
+    background-image: url("estrela.icon.png");
+    height: 50%;
+    width: 50%;
+    transform: translate(50%, 50%);
+}
+.filho2{
+    background-image: url("estrela.icon.png");
+    height: 50%;
+    width: 50%;
+    transform: translate(50%, 50%);
+}
+.filho3{
+    background-image: url("estrela.icon.png");
+    height: 50%;
+    width: 50%;
+    transform: translate(50%, 50%);
+}
+.filho4{
+    background-image: url("estrela.icon.png");
+    height: 50%;
+    width: 50%;
+    transform: translate(50%, 50%);
+}
